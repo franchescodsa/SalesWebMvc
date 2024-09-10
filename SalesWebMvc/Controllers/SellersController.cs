@@ -70,7 +70,7 @@ namespace SalesWebMvc.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async  Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
             try
             {
